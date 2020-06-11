@@ -1,0 +1,30 @@
+.red
+{
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  display: inline-block;
+position: relative;
+left: 300px; /*red box moves from left margin to right end by 200px*/
+
+}
+
+.yellow
+{
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+  display: inline-block;
+position: relative; /*middle is yellow.so it remains same*/
+right: 210px;
+}
+.blue
+{
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  
+display: inline-block;
+position: relative;
+right: 520px; /*changes blue position from right to left at the place of red by 200px*/
+}
